@@ -1,2 +1,2 @@
 # Python_Task1_Stars
-Displaying a rotating star pattern 
+ a Python program that displaying a rotating star pattern in many different directions 
