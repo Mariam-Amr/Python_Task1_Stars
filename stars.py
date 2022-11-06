@@ -3,7 +3,9 @@
 #1st triangle
 import time
 import os
-os.system("CLS")
+
+#1st triangle
+os.system("cls")
 rows =int(input("enter your numer of rows to draw a patern "))  #number of rows
 for i in range(0, rows):             # nested loop for each column
     for j in range(0, i + 1):        # nested loop for each column
@@ -11,9 +13,9 @@ for i in range(0, rows):             # nested loop for each column
     print(" ")  	                 # new line after each row
 print("\n")
 time.sleep(1)
+os.system("cls")
 
 #2nd triangle
-
 k = 2 * rows -2
 for i in range(rows, -1, -1):
     for j in range(k, 0, -1):
@@ -24,9 +26,9 @@ for i in range(rows, -1, -1):
     print("")
 print("\n")
 time.sleep(1)
+os.system("cls")
 
 #3rd triangle
-
 k = 2 * rows - 2
 for i in range(0, rows):
     # process each column
@@ -40,9 +42,9 @@ for i in range(0, rows):
     print(" ")	
 print("\n")
 time.sleep(1)
+os.system("cls")
 
 #4th triangle
-
 for i in range(rows + 1, 0, -1):
     # nested reverse loop
     for j in range(0, i - 1):
@@ -51,6 +53,7 @@ for i in range(rows + 1, 0, -1):
     print(" ")
 print("\n")
 time.sleep(1)
+os.system("cls")
 
 #5th triangle
 m = (2 * rows) - 2
@@ -64,6 +67,7 @@ for i in range(0, rows):
     print(" ")
 print("\n")
 time.sleep(1)
+os.system("cls")
 
 #6th triangle
 i = rows
@@ -80,4 +84,4 @@ while i >= 1:
     print()
     i -= 1
 time.sleep(1)
-print("\n")
+os.system("cls")
